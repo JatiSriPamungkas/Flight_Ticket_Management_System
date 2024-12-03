@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Flight_Ticket_Management.Controls;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,11 +16,19 @@ namespace Flight_Ticket_Management.Forms
         public Dashboard()
         {
             InitializeComponent();
+            showUserControls(new PendaftaranControl());
+        }
+
+        private void showUserControls(UserControl userControl)
+        {
+            mainPanel.Controls.Clear();
+            userControl.Dock = DockStyle.Fill;
+            mainPanel.Controls.Add(userControl);
         }
 
         private void lblClose_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             Application.OpenForms["Login"].Show();
         }
 
@@ -46,6 +55,31 @@ namespace Flight_Ticket_Management.Forms
         private void lblMinimize_MouseLeave(object sender, EventArgs e)
         {
             lblMinimize.BackColor = Color.DarkGray;
+        }
+
+        private void btnPendaftaran_Click(object sender, EventArgs e)
+        {
+            showUserControls(new PendaftaranControl());
+        }
+
+        private void btnTiket_Click(object sender, EventArgs e)
+        {
+            showUserControls(new TiketControl());
+        }
+
+        private void btnJadwal_Click(object sender, EventArgs e)
+        {
+            showUserControls(new JadwalControl());
+        }
+
+        private void btnPembayaran_Click(object sender, EventArgs e)
+        {
+            showUserControls(new PembayaranControl());
+        }
+
+        private void btnPengaturan_Click(object sender, EventArgs e)
+        {
+            showUserControls(new PengaturanControl());
         }
     }
 }

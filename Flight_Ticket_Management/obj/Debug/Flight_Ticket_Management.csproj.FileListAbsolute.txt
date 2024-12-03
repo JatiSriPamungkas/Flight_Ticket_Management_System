@@ -10,3 +10,19 @@ D:\College (SMT 3)\Pemrograman Lanjut\New folder\Flight_Ticket_Management\Flight
 D:\College (SMT 3)\Pemrograman Lanjut\New folder\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.pdb
 D:\College (SMT 3)\Pemrograman Lanjut\New folder\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.Forms.Dashboard.resources
 D:\College (SMT 3)\Pemrograman Lanjut\New folder\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.Forms.Tiket.resources
+D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\bin\Debug\Flight_Ticket_Management.exe.config
+D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\bin\Debug\Flight_Ticket_Management.exe
+D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\bin\Debug\Flight_Ticket_Management.pdb
+D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.csproj.AssemblyReference.cache
+D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.Forms.Dashboard.resources
+D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.Login.resources
+D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.Properties.Resources.resources
+D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.csproj.GenerateResource.cache
+D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.csproj.CoreCompileInputs.cache
+D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.exe
+D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.pdb
+D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.Forms.TiketControl.resources
+D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.Controls.PendaftaranControl.resources
+D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.Controls.JadwalControl.resources
+D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.Controls.PembayaranControl.resources
+D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.Controls.PengaturanControl.resources

@@ -14,6 +14,9 @@ namespace Flight_Ticket_Management
 {
     public partial class Login : Form
     {
+
+        Dashboard dashboard = new Dashboard();
+
         public Login()
         {
             InitializeComponent();
@@ -27,6 +30,7 @@ namespace Flight_Ticket_Management
 
         private void closelbl_Click(object sender, EventArgs e)
         {
+            dashboard.Close();
             Application.Exit();
         }
 
@@ -74,7 +78,6 @@ namespace Flight_Ticket_Management
             if (txtUsername.Text == "" && txtPassword.Text == "")
             {
                 ResetForm();
-                Dashboard dashboard = new Dashboard();
                 dashboard.Show();
                 this.Hide();
             }

@@ -46,6 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\JadwalControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\JadwalControl.Designer.cs">
+      <DependentUpon>JadwalControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PembayaranControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PembayaranControl.Designer.cs">
+      <DependentUpon>PembayaranControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PendaftaranControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PendaftaranControl.Designer.cs">
+      <DependentUpon>PendaftaranControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PengaturanControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PengaturanControl.Designer.cs">
+      <DependentUpon>PengaturanControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,22 +82,34 @@
     <Compile Include="Forms\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Tiket.cs">
+    <Compile Include="Controls\TiketControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Forms\Tiket.Designer.cs">
-      <DependentUpon>Tiket.cs</DependentUpon>
+    <Compile Include="Controls\TiketControl.Designer.cs">
+      <DependentUpon>TiketControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controls\JadwalControl.resx">
+      <DependentUpon>JadwalControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PembayaranControl.resx">
+      <DependentUpon>PembayaranControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PendaftaranControl.resx">
+      <DependentUpon>PendaftaranControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PengaturanControl.resx">
+      <DependentUpon>PengaturanControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Tiket.resx">
-      <DependentUpon>Tiket.cs</DependentUpon>
+    <EmbeddedResource Include="Controls\TiketControl.resx">
+      <DependentUpon>TiketControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -128,5 +164,6 @@
   <ItemGroup>
     <None Include="Resources\Ticket_Icon.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
