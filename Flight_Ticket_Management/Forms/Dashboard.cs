@@ -19,7 +19,7 @@ namespace Flight_Ticket_Management.Forms
             showUserControls(new PendaftaranControl());
         }
 
-        private void showUserControls(UserControl userControl)
+        public void showUserControls(UserControl userControl)
         {
             mainPanel.Controls.Clear();
             userControl.Dock = DockStyle.Fill;
@@ -83,17 +83,3 @@ namespace Flight_Ticket_Management.Forms
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

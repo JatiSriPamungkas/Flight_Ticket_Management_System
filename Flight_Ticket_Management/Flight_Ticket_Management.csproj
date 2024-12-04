@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\DetailJadwalControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DetailJadwalControl.Designer.cs">
+      <DependentUpon>DetailJadwalControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\JadwalControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Controls\JadwalControl.Designer.cs">
       <DependentUpon>JadwalControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\KeteranganJadwalControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\KeteranganJadwalControl.Designer.cs">
+      <DependentUpon>KeteranganJadwalControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Controls\PembayaranControl.cs">
       <SubType>UserControl</SubType>
@@ -90,8 +102,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controls\DetailJadwalControl.resx">
+      <DependentUpon>DetailJadwalControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controls\JadwalControl.resx">
       <DependentUpon>JadwalControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\KeteranganJadwalControl.resx">
+      <DependentUpon>KeteranganJadwalControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\PembayaranControl.resx">
       <DependentUpon>PembayaranControl.cs</DependentUpon>
