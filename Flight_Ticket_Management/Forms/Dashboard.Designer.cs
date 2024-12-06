@@ -33,6 +33,8 @@
             this.lblRestore = new System.Windows.Forms.PictureBox();
             this.lblClose = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnJadwal = new System.Windows.Forms.Button();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.btnPengaturan = new System.Windows.Forms.Button();
             this.btnPembayaran = new System.Windows.Forms.Button();
             this.btnTiket = new System.Windows.Forms.Button();
@@ -47,13 +49,12 @@
             this.label8 = new System.Windows.Forms.Label();
             this.mainPanel = new System.Windows.Forms.Panel();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.btnJadwal = new System.Windows.Forms.Button();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lblMinimize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblRestore)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblClose)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -61,7 +62,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.mainPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -131,6 +131,31 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(389, 1050);
             this.panel2.TabIndex = 0;
+            // 
+            // btnJadwal
+            // 
+            this.btnJadwal.BackColor = System.Drawing.Color.White;
+            this.btnJadwal.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnJadwal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnJadwal.Font = new System.Drawing.Font("Bankai Demo Version", 14F);
+            this.btnJadwal.Location = new System.Drawing.Point(120, 446);
+            this.btnJadwal.Name = "btnJadwal";
+            this.btnJadwal.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.btnJadwal.Size = new System.Drawing.Size(234, 50);
+            this.btnJadwal.TabIndex = 8;
+            this.btnJadwal.Text = "Jadwal";
+            this.btnJadwal.UseVisualStyleBackColor = false;
+            this.btnJadwal.Click += new System.EventHandler(this.btnJadwal_Click);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Flight_Ticket_Management.Properties.Resources.Jadwal_Icon;
+            this.pictureBox5.Location = new System.Drawing.Point(55, 446);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 9;
+            this.pictureBox5.TabStop = false;
             // 
             // btnPengaturan
             // 
@@ -271,7 +296,6 @@
             // 
             // mainPanel
             // 
-            this.mainPanel.AutoScroll = true;
             this.mainPanel.BackColor = System.Drawing.SystemColors.ControlLight;
             this.mainPanel.Controls.Add(this.label8);
             this.mainPanel.Location = new System.Drawing.Point(431, 266);
@@ -288,31 +312,6 @@
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 13;
             this.pictureBox10.TabStop = false;
-            // 
-            // btnJadwal
-            // 
-            this.btnJadwal.BackColor = System.Drawing.Color.White;
-            this.btnJadwal.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
-            this.btnJadwal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnJadwal.Font = new System.Drawing.Font("Bankai Demo Version", 14F);
-            this.btnJadwal.Location = new System.Drawing.Point(120, 446);
-            this.btnJadwal.Name = "btnJadwal";
-            this.btnJadwal.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.btnJadwal.Size = new System.Drawing.Size(234, 50);
-            this.btnJadwal.TabIndex = 8;
-            this.btnJadwal.Text = "Jadwal";
-            this.btnJadwal.UseVisualStyleBackColor = false;
-            this.btnJadwal.Click += new System.EventHandler(this.btnJadwal_Click);
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::Flight_Ticket_Management.Properties.Resources.Jadwal_Icon;
-            this.pictureBox5.Location = new System.Drawing.Point(55, 446);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 9;
-            this.pictureBox5.TabStop = false;
             // 
             // Dashboard
             // 
@@ -337,6 +336,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.lblRestore)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblClose)).EndInit();
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -345,7 +345,6 @@
             this.mainPanel.ResumeLayout(false);
             this.mainPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -15,11 +15,12 @@ namespace Flight_Ticket_Management.Controls
     {
         private int noUrut;
         private ListViewItem item;
-        private Dashboard dashboard = new Dashboard();
+        private Dashboard dashboard;
 
-        public JadwalControl()
+        public JadwalControl(Dashboard dashboard)
         {
             InitializeComponent();
+            this.dashboard = dashboard;
         }
 
         private void btnTest_Click_1(object sender, EventArgs e)
@@ -40,15 +41,7 @@ namespace Flight_Ticket_Management.Controls
 
         private void btnDetails_Click(object sender, EventArgs e)
         {
-            DetailJadwalControl detailJadwalControl = new DetailJadwalControl();
-            try
-            {
-                dashboard.showUserControls(detailJadwalControl);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Terjadi kesalahan: {ex.Message}");
-            }
+            dashboard.showUserControls(dashboard.userControl[2]);
         }
     }
 }

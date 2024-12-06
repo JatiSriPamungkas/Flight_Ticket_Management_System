@@ -30,6 +30,8 @@
         {
             this.columnNo = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.mainPanel = new System.Windows.Forms.Panel();
+            this.btnDetails = new System.Windows.Forms.Button();
+            this.btnTest = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.lvwJadwal = new System.Windows.Forms.ListView();
@@ -41,8 +43,6 @@
             this.columnAsal = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnTujuan = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label8 = new System.Windows.Forms.Label();
-            this.btnDetails = new System.Windows.Forms.Button();
-            this.btnTest = new System.Windows.Forms.Button();
             this.mainPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,6 +64,36 @@
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(1480, 802);
             this.mainPanel.TabIndex = 2;
+            // 
+            // btnDetails
+            // 
+            this.btnDetails.BackColor = System.Drawing.Color.White;
+            this.btnDetails.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnDetails.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDetails.Font = new System.Drawing.Font("Bankai Demo Version", 14F);
+            this.btnDetails.Location = new System.Drawing.Point(1254, 738);
+            this.btnDetails.Name = "btnDetails";
+            this.btnDetails.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.btnDetails.Size = new System.Drawing.Size(200, 50);
+            this.btnDetails.TabIndex = 5;
+            this.btnDetails.Text = "Details";
+            this.btnDetails.UseVisualStyleBackColor = false;
+            this.btnDetails.Click += new System.EventHandler(this.btnDetails_Click);
+            // 
+            // btnTest
+            // 
+            this.btnTest.BackColor = System.Drawing.Color.White;
+            this.btnTest.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnTest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTest.Font = new System.Drawing.Font("Bankai Demo Version", 14F);
+            this.btnTest.Location = new System.Drawing.Point(1022, 738);
+            this.btnTest.Name = "btnTest";
+            this.btnTest.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.btnTest.Size = new System.Drawing.Size(200, 50);
+            this.btnTest.TabIndex = 6;
+            this.btnTest.Text = "Test";
+            this.btnTest.UseVisualStyleBackColor = false;
+            this.btnTest.Click += new System.EventHandler(this.btnTest_Click_1);
             // 
             // label12
             // 
@@ -156,36 +186,6 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(0, 27);
             this.label8.TabIndex = 0;
-            // 
-            // btnDetails
-            // 
-            this.btnDetails.BackColor = System.Drawing.Color.White;
-            this.btnDetails.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
-            this.btnDetails.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDetails.Font = new System.Drawing.Font("Bankai Demo Version", 14F);
-            this.btnDetails.Location = new System.Drawing.Point(1254, 738);
-            this.btnDetails.Name = "btnDetails";
-            this.btnDetails.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.btnDetails.Size = new System.Drawing.Size(200, 50);
-            this.btnDetails.TabIndex = 5;
-            this.btnDetails.Text = "Details";
-            this.btnDetails.UseVisualStyleBackColor = false;
-            this.btnDetails.Click += new System.EventHandler(this.btnDetails_Click);
-            // 
-            // btnTest
-            // 
-            this.btnTest.BackColor = System.Drawing.Color.White;
-            this.btnTest.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
-            this.btnTest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTest.Font = new System.Drawing.Font("Bankai Demo Version", 14F);
-            this.btnTest.Location = new System.Drawing.Point(1022, 738);
-            this.btnTest.Name = "btnTest";
-            this.btnTest.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.btnTest.Size = new System.Drawing.Size(200, 50);
-            this.btnTest.TabIndex = 6;
-            this.btnTest.Text = "Test";
-            this.btnTest.UseVisualStyleBackColor = false;
-            this.btnTest.Click += new System.EventHandler(this.btnTest_Click_1);
             // 
             // JadwalControl
             // 

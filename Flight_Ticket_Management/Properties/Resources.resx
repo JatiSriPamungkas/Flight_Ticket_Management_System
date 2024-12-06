@@ -121,8 +121,14 @@
   <data name="Demon_Girl_Flipped1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Demon_Girl_Flipped.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Jadwal_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Jadwal_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Restore_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Restore_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pengaturan_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pengaturan_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Minimize_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Minimize_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,8 +142,8 @@
   <data name="demon_girl_by_taoistviking_dgkck46" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\demon_girl_by_taoistviking_dgkck46.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Jadwal_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Jadwal_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ticket_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ticket_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Orang_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Orang_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,10 +151,10 @@
   <data name="Pembayaran_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pembayaran_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Pengaturan_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pengaturan_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Keberangkatan_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Keberangkatan_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ticket_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ticket_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Kedatangan_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kedatangan_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -182,6 +182,11 @@
   <ItemGroup>
     <None Include="Resources\Ticket_Icon.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Keberangkatan_Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kedatangan_Icon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
