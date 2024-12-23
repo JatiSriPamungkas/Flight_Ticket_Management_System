@@ -28,21 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblMinimize = new System.Windows.Forms.PictureBox();
             this.lblRestore = new System.Windows.Forms.PictureBox();
             this.lblClose = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.btnPembayaran = new System.Windows.Forms.Button();
             this.btnJadwal = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.btnPengaturan = new System.Windows.Forms.Button();
-            this.btnPembayaran = new System.Windows.Forms.Button();
             this.btnTiket = new System.Windows.Forms.Button();
             this.btnPendaftaran = new System.Windows.Forms.Button();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -54,11 +55,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.lblRestore)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblClose)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.mainPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
@@ -115,16 +116,16 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel2.Controls.Add(this.pictureBox6);
+            this.panel2.Controls.Add(this.btnPembayaran);
             this.panel2.Controls.Add(this.btnJadwal);
             this.panel2.Controls.Add(this.pictureBox5);
             this.panel2.Controls.Add(this.btnPengaturan);
-            this.panel2.Controls.Add(this.btnPembayaran);
             this.panel2.Controls.Add(this.btnTiket);
             this.panel2.Controls.Add(this.btnPendaftaran);
             this.panel2.Controls.Add(this.pictureBox9);
             this.panel2.Controls.Add(this.pictureBox8);
             this.panel2.Controls.Add(this.pictureBox4);
-            this.panel2.Controls.Add(this.pictureBox6);
             this.panel2.Controls.Add(this.pictureBox7);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
@@ -132,9 +133,36 @@
             this.panel2.Size = new System.Drawing.Size(389, 1050);
             this.panel2.TabIndex = 0;
             // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::Flight_Ticket_Management.Properties.Resources.Ticket_Icon;
+            this.pictureBox6.Location = new System.Drawing.Point(55, 616);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 11;
+            this.pictureBox6.TabStop = false;
+            // 
+            // btnPembayaran
+            // 
+            this.btnPembayaran.BackColor = System.Drawing.Color.White;
+            this.btnPembayaran.Enabled = false;
+            this.btnPembayaran.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnPembayaran.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPembayaran.Font = new System.Drawing.Font("Bankai Demo Version", 14F);
+            this.btnPembayaran.Location = new System.Drawing.Point(120, 531);
+            this.btnPembayaran.Name = "btnPembayaran";
+            this.btnPembayaran.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.btnPembayaran.Size = new System.Drawing.Size(234, 50);
+            this.btnPembayaran.TabIndex = 10;
+            this.btnPembayaran.Text = "Pembayaran";
+            this.btnPembayaran.UseVisualStyleBackColor = false;
+            this.btnPembayaran.Click += new System.EventHandler(this.btnPembayaran_Click);
+            // 
             // btnJadwal
             // 
             this.btnJadwal.BackColor = System.Drawing.Color.White;
+            this.btnJadwal.Enabled = false;
             this.btnJadwal.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
             this.btnJadwal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnJadwal.Font = new System.Drawing.Font("Bankai Demo Version", 14F);
@@ -172,28 +200,14 @@
             this.btnPengaturan.UseVisualStyleBackColor = false;
             this.btnPengaturan.Click += new System.EventHandler(this.btnPengaturan_Click);
             // 
-            // btnPembayaran
-            // 
-            this.btnPembayaran.BackColor = System.Drawing.Color.White;
-            this.btnPembayaran.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
-            this.btnPembayaran.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPembayaran.Font = new System.Drawing.Font("Bankai Demo Version", 14F);
-            this.btnPembayaran.Location = new System.Drawing.Point(120, 613);
-            this.btnPembayaran.Name = "btnPembayaran";
-            this.btnPembayaran.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.btnPembayaran.Size = new System.Drawing.Size(234, 50);
-            this.btnPembayaran.TabIndex = 0;
-            this.btnPembayaran.Text = "Pembayaran";
-            this.btnPembayaran.UseVisualStyleBackColor = false;
-            this.btnPembayaran.Click += new System.EventHandler(this.btnPembayaran_Click);
-            // 
             // btnTiket
             // 
             this.btnTiket.BackColor = System.Drawing.Color.White;
+            this.btnTiket.Enabled = false;
             this.btnTiket.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
             this.btnTiket.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTiket.Font = new System.Drawing.Font("Bankai Demo Version", 14F);
-            this.btnTiket.Location = new System.Drawing.Point(120, 531);
+            this.btnTiket.Location = new System.Drawing.Point(120, 616);
             this.btnTiket.Name = "btnTiket";
             this.btnTiket.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
             this.btnTiket.Size = new System.Drawing.Size(234, 50);
@@ -230,7 +244,7 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = global::Flight_Ticket_Management.Properties.Resources.Pembayaran_Icon;
-            this.pictureBox8.Location = new System.Drawing.Point(55, 616);
+            this.pictureBox8.Location = new System.Drawing.Point(55, 531);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(50, 50);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -239,23 +253,13 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::Flight_Ticket_Management.Properties.Resources.Demon_Girl_Flipped;
-            this.pictureBox4.Location = new System.Drawing.Point(55, 54);
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(55, 35);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(250, 250);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.Size = new System.Drawing.Size(299, 277);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 2;
             this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::Flight_Ticket_Management.Properties.Resources.Ticket_Icon;
-            this.pictureBox6.Location = new System.Drawing.Point(55, 531);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 4;
-            this.pictureBox6.TabStop = false;
             // 
             // pictureBox7
             // 
@@ -327,6 +331,7 @@
             this.Font = new System.Drawing.Font("Bankai Demo Version", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Dashboard";
             this.Text = "    ";
@@ -336,11 +341,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.lblRestore)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblClose)).EndInit();
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.mainPanel.ResumeLayout(false);
             this.mainPanel.PerformLayout();
@@ -361,17 +366,17 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Button btnPendaftaran;
-        private System.Windows.Forms.Button btnTiket;
-        private System.Windows.Forms.Button btnPembayaran;
-        private System.Windows.Forms.Button btnPengaturan;
+        public System.Windows.Forms.Button btnPendaftaran;
+        public System.Windows.Forms.Button btnTiket;
+        public System.Windows.Forms.Button btnPengaturan;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Panel mainPanel;
-        private System.Windows.Forms.Button btnJadwal;
+        public System.Windows.Forms.Button btnJadwal;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        public System.Windows.Forms.Button btnPembayaran;
     }
 }

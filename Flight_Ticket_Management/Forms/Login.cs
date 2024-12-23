@@ -14,11 +14,11 @@ namespace Flight_Ticket_Management
 {
     public partial class Login : Form
     {
-
-        Dashboard dashboard = new Dashboard();
+        private Dashboard dashboard;
 
         public Login()
         {
+            dashboard = new Dashboard(this);
             InitializeComponent();
         }
 
@@ -75,17 +75,24 @@ namespace Flight_Ticket_Management
                 ResetForm();
                 MessageBox.Show("Mohon isi kolom Username dan Password !!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }*/
-            if (txtUsername.Text == "" && txtPassword.Text == "")
+            try
             {
-                ResetForm();
-                dashboard.Show();
-                this.Hide();
-            }
-            else
+                if (txtUsername.Text == "" && txtPassword.Text == "")
+                {
+                    ResetForm();
+                    dashboard.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    ResetForm();
+                    MessageBox.Show("Username atau Password Salah !!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            } catch (Exception ex)
             {
-                ResetForm();
-                MessageBox.Show("Username atau Password Salah !!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error: " + ex.Message);
             }
+            
         }
 
         private void lblReset_MouseEnter(object sender, EventArgs e)

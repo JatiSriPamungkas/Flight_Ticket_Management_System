@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65710CA0-E962-4584-9644-54D0178138FF}|Flight_Ticket_Management\\Flight_Ticket_Management.csproj|d:\\college (smt 3)\\pemrograman lanjut\\flight_ticket_management\\flight_ticket_management\\controls\\keteranganjadwalcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{65710CA0-E962-4584-9644-54D0178138FF}|Flight_Ticket_Management\\Flight_Ticket_Management.csproj|solutionrelative:flight_ticket_management\\controls\\keteranganjadwalcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{65710CA0-E962-4584-9644-54D0178138FF}|Flight_Ticket_Management\\Flight_Ticket_Management.csproj|d:\\college (smt 3)\\pemrograman lanjut\\flight_ticket_management\\flight_ticket_management\\controls\\pendaftarancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65710CA0-E962-4584-9644-54D0178138FF}|Flight_Ticket_Management\\Flight_Ticket_Management.csproj|solutionrelative:flight_ticket_management\\controls\\pendaftarancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65710CA0-E962-4584-9644-54D0178138FF}|Flight_Ticket_Management\\Flight_Ticket_Management.csproj|d:\\college (smt 3)\\pemrograman lanjut\\flight_ticket_management\\flight_ticket_management\\controls\\detailjadwalcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65710CA0-E962-4584-9644-54D0178138FF}|Flight_Ticket_Management\\Flight_Ticket_Management.csproj|solutionrelative:flight_ticket_management\\controls\\detailjadwalcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65710CA0-E962-4584-9644-54D0178138FF}|Flight_Ticket_Management\\Flight_Ticket_Management.csproj|D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\flight_ticket_management\\controls\\pendaftarancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{65710CA0-E962-4584-9644-54D0178138FF}|Flight_Ticket_Management\\Flight_Ticket_Management.csproj|solutionrelative:flight_ticket_management\\controls\\pendaftarancontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65710CA0-E962-4584-9644-54D0178138FF}|Flight_Ticket_Management\\Flight_Ticket_Management.csproj|d:\\college (smt 3)\\pemrograman lanjut\\flight_ticket_management\\flight_ticket_management\\controls\\detailjadwalcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{65710CA0-E962-4584-9644-54D0178138FF}|Flight_Ticket_Management\\Flight_Ticket_Management.csproj|solutionrelative:flight_ticket_management\\controls\\detailjadwalcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{65710CA0-E962-4584-9644-54D0178138FF}|Flight_Ticket_Management\\Flight_Ticket_Management.csproj|D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\flight_ticket_management\\forms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{65710CA0-E962-4584-9644-54D0178138FF}|Flight_Ticket_Management\\Flight_Ticket_Management.csproj|solutionrelative:flight_ticket_management\\forms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65710CA0-E962-4584-9644-54D0178138FF}|Flight_Ticket_Management\\Flight_Ticket_Management.csproj|d:\\college (smt 3)\\pemrograman lanjut\\flight_ticket_management\\flight_ticket_management\\controls\\keteranganjadwalcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65710CA0-E962-4584-9644-54D0178138FF}|Flight_Ticket_Management\\Flight_Ticket_Management.csproj|solutionrelative:flight_ticket_management\\controls\\keteranganjadwalcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65710CA0-E962-4584-9644-54D0178138FF}|Flight_Ticket_Management\\Flight_Ticket_Management.csproj|D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\flight_ticket_management\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{65710CA0-E962-4584-9644-54D0178138FF}|Flight_Ticket_Management\\Flight_Ticket_Management.csproj|solutionrelative:flight_ticket_management\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65710CA0-E962-4584-9644-54D0178138FF}|Flight_Ticket_Management\\Flight_Ticket_Management.csproj|D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\flight_ticket_management\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65710CA0-E962-4584-9644-54D0178138FF}|Flight_Ticket_Management\\Flight_Ticket_Management.csproj|solutionrelative:flight_ticket_management\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65710CA0-E962-4584-9644-54D0178138FF}|Flight_Ticket_Management\\Flight_Ticket_Management.csproj|D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\flight_ticket_management\\forms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65710CA0-E962-4584-9644-54D0178138FF}|Flight_Ticket_Management\\Flight_Ticket_Management.csproj|solutionrelative:flight_ticket_management\\forms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,29 +38,31 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DetailJadwalControl.cs [Design]",
-              "DocumentMoniker": "D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\Flight_Ticket_Management\\Controls\\DetailJadwalControl.cs",
-              "RelativeDocumentMoniker": "Flight_Ticket_Management\\Controls\\DetailJadwalControl.cs",
-              "ToolTip": "D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\Flight_Ticket_Management\\Controls\\DetailJadwalControl.cs [Design]",
-              "RelativeToolTip": "Flight_Ticket_Management\\Controls\\DetailJadwalControl.cs [Design]",
+              "DocumentIndex": 5,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\Flight_Ticket_Management\\Forms\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Flight_Ticket_Management\\Forms\\Dashboard.cs",
+              "ToolTip": "D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\Flight_Ticket_Management\\Forms\\Dashboard.cs",
+              "RelativeToolTip": "Flight_Ticket_Management\\Forms\\Dashboard.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAADwvx8AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T15:51:13.598Z",
+              "WhenOpened": "2024-12-21T15:56:29.096Z",
               "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "KeteranganJadwalControl.cs [Design]",
-              "DocumentMoniker": "D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\Flight_Ticket_Management\\Controls\\KeteranganJadwalControl.cs",
-              "RelativeDocumentMoniker": "Flight_Ticket_Management\\Controls\\KeteranganJadwalControl.cs",
-              "ToolTip": "D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\Flight_Ticket_Management\\Controls\\KeteranganJadwalControl.cs [Design]",
-              "RelativeToolTip": "Flight_Ticket_Management\\Controls\\KeteranganJadwalControl.cs [Design]",
+              "Title": "PendaftaranControl.cs",
+              "DocumentMoniker": "D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\Flight_Ticket_Management\\Controls\\PendaftaranControl.cs",
+              "RelativeDocumentMoniker": "Flight_Ticket_Management\\Controls\\PendaftaranControl.cs",
+              "ToolTip": "D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\Flight_Ticket_Management\\Controls\\PendaftaranControl.cs",
+              "RelativeToolTip": "Flight_Ticket_Management\\Controls\\PendaftaranControl.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwCIAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T15:59:11.968Z",
+              "WhenOpened": "2024-12-21T15:53:35.654Z",
               "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -76,29 +86,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DetailJadwalControl.cs",
-              "DocumentMoniker": "D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\Flight_Ticket_Management\\Controls\\DetailJadwalControl.cs",
-              "RelativeDocumentMoniker": "Flight_Ticket_Management\\Controls\\DetailJadwalControl.cs",
-              "ToolTip": "D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\Flight_Ticket_Management\\Controls\\DetailJadwalControl.cs",
-              "RelativeToolTip": "Flight_Ticket_Management\\Controls\\DetailJadwalControl.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAlwBkAAAA8AAAA",
+              "DocumentIndex": 4,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\Flight_Ticket_Management\\Forms\\Login.cs",
+              "RelativeDocumentMoniker": "Flight_Ticket_Management\\Forms\\Login.cs",
+              "ToolTip": "D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\Flight_Ticket_Management\\Forms\\Login.cs",
+              "RelativeToolTip": "Flight_Ticket_Management\\Forms\\Login.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAIwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T15:51:15.931Z",
+              "WhenOpened": "2024-12-22T03:50:21.52Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 318,
+          "SelectedChildIndex": 2,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "KeteranganJadwalControl.cs",
-              "DocumentMoniker": "D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\Flight_Ticket_Management\\Controls\\KeteranganJadwalControl.cs",
-              "RelativeDocumentMoniker": "Flight_Ticket_Management\\Controls\\KeteranganJadwalControl.cs",
-              "ToolTip": "D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\Flight_Ticket_Management\\Controls\\KeteranganJadwalControl.cs",
-              "RelativeToolTip": "Flight_Ticket_Management\\Controls\\KeteranganJadwalControl.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAtwCIAAAA3AAAA",
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\Flight_Ticket_Management\\Forms\\Login.cs",
+              "RelativeDocumentMoniker": "Flight_Ticket_Management\\Forms\\Login.cs",
+              "ToolTip": "D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\Flight_Ticket_Management\\Forms\\Login.cs [Design]",
+              "RelativeToolTip": "Flight_Ticket_Management\\Forms\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T16:04:40.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T03:50:18.213Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\Flight_Ticket_Management\\Forms\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Flight_Ticket_Management\\Forms\\Dashboard.cs",
+              "ToolTip": "D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\Flight_Ticket_Management\\Forms\\Dashboard.cs [Design]",
+              "RelativeToolTip": "Flight_Ticket_Management\\Forms\\Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:11:05.091Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PendaftaranControl.cs [Design]",
+              "DocumentMoniker": "D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\Flight_Ticket_Management\\Controls\\PendaftaranControl.cs",
+              "RelativeDocumentMoniker": "Flight_Ticket_Management\\Controls\\PendaftaranControl.cs",
+              "ToolTip": "D:\\College (SMT 3)\\Pemrograman Lanjut\\Flight_Ticket_Management\\Flight_Ticket_Management\\Controls\\PendaftaranControl.cs [Design]",
+              "RelativeToolTip": "Flight_Ticket_Management\\Controls\\PendaftaranControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T15:53:13.087Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

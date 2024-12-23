@@ -103,6 +103,26 @@ namespace Flight_Ticket_Management.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap flight_management_logo4000 {
+            get {
+                object obj = ResourceManager.GetObject("flight_management_logo4000", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap flight_management_logo40001 {
+            get {
+                object obj = ResourceManager.GetObject("flight_management_logo40001", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Jadwal_Icon {
             get {
                 object obj = ResourceManager.GetObject("Jadwal_Icon", resourceCulture);

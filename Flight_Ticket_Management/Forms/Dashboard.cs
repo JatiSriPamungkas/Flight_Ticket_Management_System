@@ -20,19 +20,26 @@ namespace Flight_Ticket_Management.Forms
         public DetailJadwalControl detailjadwalControl;
         public KeteranganJadwalControl keteranganJadwalControl;
         public TiketControl tiketControl;
+        public NotifikasiTiketControl notifikasiTiketControl;
         public PembayaranControl pembayaranControl;
+        public VerifikasiPembayaranTiketControl verifikasiPembayaranTiketControl;
         public PengaturanControl pengaturanControl;
 
-        public Dashboard()
+        public Form login;
+
+        public Dashboard(Form loginForm)
         {
-            pendaftaranControl = new PendaftaranControl();
+            pendaftaranControl = new PendaftaranControl(this);
             jadwalControl = new JadwalControl(this);
             detailjadwalControl = new DetailJadwalControl(this);
             keteranganJadwalControl = new KeteranganJadwalControl(this);
-            tiketControl = new TiketControl();
-            pembayaranControl = new PembayaranControl();
-            pengaturanControl = new PengaturanControl();
+            tiketControl = new TiketControl(this);
+            notifikasiTiketControl = new NotifikasiTiketControl(this);
+            pembayaranControl = new PembayaranControl(this);
+            verifikasiPembayaranTiketControl = new VerifikasiPembayaranTiketControl(this);
+            pengaturanControl = new PengaturanControl(this);
 
+            login = loginForm;
 
             InitializeComponent();
 
@@ -42,8 +49,10 @@ namespace Flight_Ticket_Management.Forms
                 detailjadwalControl, // [2]
                 keteranganJadwalControl, // [3]
                 tiketControl, // [4]
-                pembayaranControl, // [5]
-                pengaturanControl // [6]
+                notifikasiTiketControl, // [5]
+                pembayaranControl, // [6]
+                verifikasiPembayaranTiketControl, // [7]
+                pengaturanControl // [8]
             };
 
             stackControls();
@@ -67,6 +76,17 @@ namespace Flight_Ticket_Management.Forms
 
             control.Visible = true;
             control.BringToFront();
+        }
+
+        private void setControlsEnabled(bool isEnabled)
+        {
+            foreach (Control control in this.Controls)
+            {
+                /*if (control != btnPengaturan && control != btnSimpan)
+                {
+                    control.Enabled = isEnabled;
+                }*/
+            }
         }
 
         private void lblClose_Click(object sender, EventArgs e)
@@ -114,15 +134,14 @@ namespace Flight_Ticket_Management.Forms
         {
             showUserControls(userControl[4]);
         }
-
         private void btnPembayaran_Click(object sender, EventArgs e)
         {
-            showUserControls(userControl[5]);
+            showUserControls(userControl[6]);
         }
 
         private void btnPengaturan_Click(object sender, EventArgs e)
         {
-            showUserControls(userControl[6]);
+            showUserControls(userControl[8]);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Flight_Ticket_Management.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,17 @@ namespace Flight_Ticket_Management.Controls
 {
     public partial class PengaturanControl : UserControl
     {
-        public PengaturanControl()
+        private Dashboard dashboard;
+        public PengaturanControl(Dashboard dashboard)
         {
             InitializeComponent();
+            this.dashboard = dashboard;
+        }
+
+        private void btnSignOut_Click(object sender, EventArgs e)
+        {
+            dashboard.Hide();
+            dashboard.login.Show();
         }
     }
 }

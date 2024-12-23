@@ -21,10 +21,12 @@ D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Man
 D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.csproj.CoreCompileInputs.cache
 D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.exe
 D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.pdb
-D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.Forms.TiketControl.resources
 D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.Controls.PendaftaranControl.resources
 D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.Controls.JadwalControl.resources
 D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.Controls.PembayaranControl.resources
 D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.Controls.PengaturanControl.resources
 D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.Controls.DetailJadwalControl.resources
 D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.Controls.KeteranganJadwalControl.resources
+D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.Controls.VerifikasiPembayaranTiketControl.resources
+D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.Controls.TiketControl.resources
+D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.Forms.NotifikasiTiketControl.resources

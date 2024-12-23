@@ -123,7 +123,7 @@
             this.mainPanel.Controls.Add(this.label8);
             this.mainPanel.Controls.Add(this.label7);
             this.mainPanel.Controls.Add(this.label6);
-            this.mainPanel.Location = new System.Drawing.Point(3, 2);
+            this.mainPanel.Location = new System.Drawing.Point(0, 0);
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(1476, 802);
             this.mainPanel.TabIndex = 0;
@@ -288,6 +288,7 @@
             this.btnSimpan.TabIndex = 2;
             this.btnSimpan.Text = "Simpan";
             this.btnSimpan.UseVisualStyleBackColor = false;
+            this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
             // panel15
             // 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Flight_Ticket_Management.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,16 @@ namespace Flight_Ticket_Management.Controls
 {
     public partial class PembayaranControl : UserControl
     {
-        public PembayaranControl()
+        private Dashboard dashboard;
+        public PembayaranControl(Dashboard dashboard)
         {
             InitializeComponent();
+            this.dashboard = dashboard;
+        }
+
+        private void btnBayar_Click(object sender, EventArgs e)
+        {
+            dashboard.showUserControls(dashboard.userControl[7]);
         }
     }
 }

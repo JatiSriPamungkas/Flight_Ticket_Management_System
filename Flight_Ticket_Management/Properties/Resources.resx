@@ -118,43 +118,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Demon_Girl_Flipped1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Demon_Girl_Flipped.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Jadwal_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Jadwal_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Restore_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Restore_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Pengaturan_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pengaturan_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Minimize_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Minimize_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Close_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Close_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Demon_Girl_Flipped" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Demon_Girl_Flipped.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="demon_girl_by_taoistviking_dgkck46" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\demon_girl_by_taoistviking_dgkck46.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ticket_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ticket_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Orang_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Orang_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Pembayaran_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pembayaran_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Keberangkatan_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Keberangkatan_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Minimize_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minimize_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Jadwal_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Jadwal_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Demon_Girl_Flipped" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Demon_Girl_Flipped.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Kedatangan_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Kedatangan_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Keberangkatan_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Keberangkatan_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Close_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Close_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flight_management_logo4000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flight_management_logo4000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ticket_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ticket_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demon_girl_by_taoistviking_dgkck46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\demon_girl_by_taoistviking_dgkck46.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Demon_Girl_Flipped1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Demon_Girl_Flipped.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pengaturan_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pengaturan_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Orang_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Orang_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flight_management_logo40001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flight_management_logo40001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
