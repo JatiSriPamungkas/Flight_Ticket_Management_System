@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.mainPanel = new System.Windows.Forms.Panel();
+            this.rbtnPerempuan = new System.Windows.Forms.RadioButton();
+            this.rbtnLaki = new System.Windows.Forms.RadioButton();
             this.panel11 = new System.Windows.Forms.Panel();
             this.txtKewarganegaraan = new System.Windows.Forms.TextBox();
             this.panel9 = new System.Windows.Forms.Panel();
@@ -37,6 +39,8 @@
             this.txtNomorTelepon = new System.Windows.Forms.TextBox();
             this.panel7 = new System.Windows.Forms.Panel();
             this.txtAlamat = new System.Windows.Forms.TextBox();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.dtmTanggalLahir = new System.Windows.Forms.DateTimePicker();
             this.panel5 = new System.Windows.Forms.Panel();
             this.txtNoIdentitas = new System.Windows.Forms.TextBox();
             this.btnReset = new System.Windows.Forms.Button();
@@ -69,22 +73,18 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.dtmTanggalLahir = new System.Windows.Forms.DateTimePicker();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.rbtnLaki = new System.Windows.Forms.RadioButton();
-            this.rbtnPerempuan = new System.Windows.Forms.RadioButton();
             this.mainPanel.SuspendLayout();
             this.panel11.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel7.SuspendLayout();
+            this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel15.SuspendLayout();
             this.panel14.SuspendLayout();
             this.panel13.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // mainPanel
@@ -127,6 +127,30 @@
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(1476, 802);
             this.mainPanel.TabIndex = 0;
+            // 
+            // rbtnPerempuan
+            // 
+            this.rbtnPerempuan.AutoSize = true;
+            this.rbtnPerempuan.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbtnPerempuan.Location = new System.Drawing.Point(606, 287);
+            this.rbtnPerempuan.Name = "rbtnPerempuan";
+            this.rbtnPerempuan.Size = new System.Drawing.Size(183, 46);
+            this.rbtnPerempuan.TabIndex = 52;
+            this.rbtnPerempuan.TabStop = true;
+            this.rbtnPerempuan.Text = "Perempuan";
+            this.rbtnPerempuan.UseVisualStyleBackColor = true;
+            // 
+            // rbtnLaki
+            // 
+            this.rbtnLaki.AutoSize = true;
+            this.rbtnLaki.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbtnLaki.Location = new System.Drawing.Point(376, 287);
+            this.rbtnLaki.Name = "rbtnLaki";
+            this.rbtnLaki.Size = new System.Drawing.Size(144, 46);
+            this.rbtnLaki.TabIndex = 51;
+            this.rbtnLaki.TabStop = true;
+            this.rbtnLaki.Text = "Laki-Laki";
+            this.rbtnLaki.UseVisualStyleBackColor = true;
             // 
             // panel11
             // 
@@ -203,6 +227,28 @@
             this.txtAlamat.Name = "txtAlamat";
             this.txtAlamat.Size = new System.Drawing.Size(416, 36);
             this.txtAlamat.TabIndex = 0;
+            // 
+            // panel6
+            // 
+            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel6.Controls.Add(this.dtmTanggalLahir);
+            this.panel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(45)))), ((int)(((byte)(51)))));
+            this.panel6.Location = new System.Drawing.Point(365, 222);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(424, 42);
+            this.panel6.TabIndex = 0;
+            // 
+            // dtmTanggalLahir
+            // 
+            this.dtmTanggalLahir.CustomFormat = " ";
+            this.dtmTanggalLahir.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtmTanggalLahir.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtmTanggalLahir.Location = new System.Drawing.Point(-1, -2);
+            this.dtmTanggalLahir.Name = "dtmTanggalLahir";
+            this.dtmTanggalLahir.Size = new System.Drawing.Size(424, 43);
+            this.dtmTanggalLahir.TabIndex = 51;
+            this.dtmTanggalLahir.Value = new System.DateTime(2024, 12, 25, 0, 0, 0, 0);
+            this.dtmTanggalLahir.ValueChanged += new System.EventHandler(this.dtmTanggalLahir_ValueChanged);
             // 
             // panel5
             // 
@@ -546,52 +592,6 @@
             this.label6.TabIndex = 0;
             this.label6.Text = "Nama Lengkap";
             // 
-            // dtmTanggalLahir
-            // 
-            this.dtmTanggalLahir.CustomFormat = " ";
-            this.dtmTanggalLahir.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtmTanggalLahir.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtmTanggalLahir.Location = new System.Drawing.Point(-1, -2);
-            this.dtmTanggalLahir.Name = "dtmTanggalLahir";
-            this.dtmTanggalLahir.Size = new System.Drawing.Size(424, 43);
-            this.dtmTanggalLahir.TabIndex = 51;
-            this.dtmTanggalLahir.Value = new System.DateTime(2024, 12, 25, 0, 0, 0, 0);
-            this.dtmTanggalLahir.ValueChanged += new System.EventHandler(this.dtmTanggalLahir_ValueChanged);
-            // 
-            // panel6
-            // 
-            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.dtmTanggalLahir);
-            this.panel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(45)))), ((int)(((byte)(51)))));
-            this.panel6.Location = new System.Drawing.Point(365, 222);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(424, 42);
-            this.panel6.TabIndex = 0;
-            // 
-            // rbtnLaki
-            // 
-            this.rbtnLaki.AutoSize = true;
-            this.rbtnLaki.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtnLaki.Location = new System.Drawing.Point(376, 287);
-            this.rbtnLaki.Name = "rbtnLaki";
-            this.rbtnLaki.Size = new System.Drawing.Size(144, 46);
-            this.rbtnLaki.TabIndex = 51;
-            this.rbtnLaki.TabStop = true;
-            this.rbtnLaki.Text = "Laki-Laki";
-            this.rbtnLaki.UseVisualStyleBackColor = true;
-            // 
-            // rbtnPerempuan
-            // 
-            this.rbtnPerempuan.AutoSize = true;
-            this.rbtnPerempuan.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtnPerempuan.Location = new System.Drawing.Point(606, 287);
-            this.rbtnPerempuan.Name = "rbtnPerempuan";
-            this.rbtnPerempuan.Size = new System.Drawing.Size(183, 46);
-            this.rbtnPerempuan.TabIndex = 52;
-            this.rbtnPerempuan.TabStop = true;
-            this.rbtnPerempuan.Text = "Perempuan";
-            this.rbtnPerempuan.UseVisualStyleBackColor = true;
-            // 
             // PendaftaranControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 27F);
@@ -611,6 +611,7 @@
             this.panel8.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
+            this.panel6.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panel15.ResumeLayout(false);
@@ -619,7 +620,6 @@
             this.panel12.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            this.panel6.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

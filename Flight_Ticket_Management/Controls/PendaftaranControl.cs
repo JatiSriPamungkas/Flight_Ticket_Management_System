@@ -1,4 +1,5 @@
 ﻿using Flight_Ticket_Management.Forms;
+using Flight_Ticket_Management.Model.Entity;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,6 +17,7 @@ namespace Flight_Ticket_Management.Controls
     {
         Dashboard dashboard;
         private DateTime? nullableDate = null;
+        public List<Penumpang> listPenumpang = new List<Penumpang>();
 
         public PendaftaranControl(Dashboard dashboard)
         {
@@ -30,7 +32,8 @@ namespace Flight_Ticket_Management.Controls
             txtAlamat.Text = string.Empty;
             txtNomorTelepon.Text = string.Empty;
             txtEmail.Text = string.Empty;
-            //cmbJenisKelamin.Text = string.Empty;
+            rbtnLaki.Checked = false;
+            rbtnPerempuan.Checked = false;
             txtKewarganegaraan.Text = string.Empty;
 
             cmbKeberangkatan.SelectedIndex = -1;
@@ -137,14 +140,38 @@ namespace Flight_Ticket_Management.Controls
 
         private void btnSimpan_Click(object sender, EventArgs e)
         {
-            if (ValidateForm())
+            try
             {
-                MessageBox.Show("Semua form telah terisi!", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                dashboard.showUserControls(dashboard.userControl[1]);
-                dashboard.btnPendaftaran.Enabled = false;
-                dashboard.btnJadwal.Enabled = true;
-                dashboard.btnPembayaran.Enabled = true;
-                dashboard.btnTiket.Enabled = true;
+
+                if (ValidateForm())
+                {
+                    Penumpang penumpang = new Penumpang();
+
+                    penumpang.NoIdentitas = txtNoIdentitas.Text;
+                    penumpang.NamaLengkap = txtNamaLengkap.Text;
+                    penumpang.TanggalLahir = dtmTanggalLahir.Value.ToString();
+                    penumpang.JenisKelamin = GetSelectedRadioButtonText();
+                    penumpang.Alamat = txtAlamat.Text;
+                    penumpang.NomorTelepon = txtNomorTelepon.Text;
+                    penumpang.Email = txtEmail.Text;
+                    penumpang.Kewarganegaraan = txtKewarganegaraan.Text;
+                    penumpang.Keberangkatan = cmbKeberangkatan.SelectedItem.ToString();
+                    penumpang.Tujuan = cmbTujuan.SelectedItem.ToString();
+                    penumpang.Kelas = cmbKelas.SelectedItem.ToString();
+                    penumpang.JumlahPenumpang = cmbPenumpang.SelectedItem.ToString();
+
+                    listPenumpang.Add(penumpang);
+
+                    MessageBox.Show("Semua form telah terisi!", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    dashboard.showUserControls(dashboard.userControl[1]);
+                    dashboard.btnPendaftaran.Enabled = false;
+                    dashboard.btnJadwal.Enabled = true;
+                    // dashboard.btnPembayaran.Enabled = true;
+                    // dashboard.btnTiket.Enabled = true;
+                }
+            } catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
             }
         }
 

@@ -30,8 +30,7 @@
         {
             this.columnNo = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.mainPanel = new System.Windows.Forms.Panel();
-            this.btnDetails = new System.Windows.Forms.Button();
-            this.btnTest = new System.Windows.Forms.Button();
+            this.btnPilih = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.lvwJadwal = new System.Windows.Forms.ListView();
@@ -54,8 +53,7 @@
             // mainPanel
             // 
             this.mainPanel.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.mainPanel.Controls.Add(this.btnDetails);
-            this.mainPanel.Controls.Add(this.btnTest);
+            this.mainPanel.Controls.Add(this.btnPilih);
             this.mainPanel.Controls.Add(this.label12);
             this.mainPanel.Controls.Add(this.label10);
             this.mainPanel.Controls.Add(this.lvwJadwal);
@@ -65,35 +63,20 @@
             this.mainPanel.Size = new System.Drawing.Size(1480, 802);
             this.mainPanel.TabIndex = 2;
             // 
-            // btnDetails
+            // btnPilih
             // 
-            this.btnDetails.BackColor = System.Drawing.Color.White;
-            this.btnDetails.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
-            this.btnDetails.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDetails.Font = new System.Drawing.Font("Bankai Demo Version", 14F);
-            this.btnDetails.Location = new System.Drawing.Point(1254, 738);
-            this.btnDetails.Name = "btnDetails";
-            this.btnDetails.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.btnDetails.Size = new System.Drawing.Size(200, 50);
-            this.btnDetails.TabIndex = 5;
-            this.btnDetails.Text = "Details";
-            this.btnDetails.UseVisualStyleBackColor = false;
-            this.btnDetails.Click += new System.EventHandler(this.btnDetails_Click);
-            // 
-            // btnTest
-            // 
-            this.btnTest.BackColor = System.Drawing.Color.White;
-            this.btnTest.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
-            this.btnTest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTest.Font = new System.Drawing.Font("Bankai Demo Version", 14F);
-            this.btnTest.Location = new System.Drawing.Point(1022, 738);
-            this.btnTest.Name = "btnTest";
-            this.btnTest.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.btnTest.Size = new System.Drawing.Size(200, 50);
-            this.btnTest.TabIndex = 6;
-            this.btnTest.Text = "Test";
-            this.btnTest.UseVisualStyleBackColor = false;
-            this.btnTest.Click += new System.EventHandler(this.btnTest_Click_1);
+            this.btnPilih.BackColor = System.Drawing.Color.White;
+            this.btnPilih.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText;
+            this.btnPilih.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPilih.Font = new System.Drawing.Font("Bankai Demo Version", 14F);
+            this.btnPilih.Location = new System.Drawing.Point(1254, 734);
+            this.btnPilih.Name = "btnPilih";
+            this.btnPilih.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.btnPilih.Size = new System.Drawing.Size(200, 50);
+            this.btnPilih.TabIndex = 6;
+            this.btnPilih.Text = "Pilih";
+            this.btnPilih.UseVisualStyleBackColor = false;
+            this.btnPilih.Click += new System.EventHandler(this.btnPilih_Click);
             // 
             // label12
             // 
@@ -131,6 +114,7 @@
             this.lvwJadwal.GridLines = true;
             this.lvwJadwal.HideSelection = false;
             this.lvwJadwal.Location = new System.Drawing.Point(19, 112);
+            this.lvwJadwal.MultiSelect = false;
             this.lvwJadwal.Name = "lvwJadwal";
             this.lvwJadwal.Size = new System.Drawing.Size(1435, 605);
             this.lvwJadwal.TabIndex = 1;
@@ -197,6 +181,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "JadwalControl";
             this.Size = new System.Drawing.Size(1480, 802);
+            this.Load += new System.EventHandler(this.JadwalControl_Load);
             this.mainPanel.ResumeLayout(false);
             this.mainPanel.PerformLayout();
             this.ResumeLayout(false);
@@ -217,7 +202,6 @@
         private System.Windows.Forms.ColumnHeader columnTujuan;
         private System.Windows.Forms.ListView lvwJadwal;
         private System.Windows.Forms.ColumnHeader columnNo;
-        private System.Windows.Forms.Button btnDetails;
-        private System.Windows.Forms.Button btnTest;
+        private System.Windows.Forms.Button btnPilih;
     }
 }

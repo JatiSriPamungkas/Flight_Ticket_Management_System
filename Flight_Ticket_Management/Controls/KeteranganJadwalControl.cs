@@ -34,5 +34,12 @@ namespace Flight_Ticket_Management.Controls
         {
             btnNextToKeterangan.ForeColor = Color.Black;
         }
+
+        private void btnNextToPembayaran_Click(object sender, EventArgs e)
+        {
+            dashboard.showUserControls(dashboard.userControl[6]);
+            dashboard.btnJadwal.Enabled = false;
+            dashboard.btnPembayaran.Enabled = true;
+        }
     }
 }

@@ -70,18 +70,18 @@ namespace Flight_Ticket_Management
         {
             string name = txtUsername.Text;
             string password = txtPassword.Text;
-            /*if (name == "" && password == "")
-            {
-                ResetForm();
-                MessageBox.Show("Mohon isi kolom Username dan Password !!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }*/
             try
             {
-                if (txtUsername.Text == "" && txtPassword.Text == "")
+                if (name == "admin" && password == "admin")
                 {
                     ResetForm();
                     dashboard.Show();
                     this.Hide();
+                }
+                else if (name == "" && password == "")
+                {
+                    ResetForm();
+                    MessageBox.Show("Mohon isi kolom Username dan Password !!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 else
                 {

@@ -22,7 +22,10 @@ namespace Flight_Ticket_Management.Controls
 
         private void btnBayar_Click(object sender, EventArgs e)
         {
-            dashboard.showUserControls(dashboard.userControl[7]);
+            DialogResult result = MessageBox.Show("Apakah Anda yakin untuk melanjutkan ke menu Pembayaran?", "Peringatan", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+            
+
+            if(result == DialogResult.Yes) dashboard.showUserControls(dashboard.userControl[7]);
         }
     }
 }

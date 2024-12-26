@@ -78,17 +78,6 @@ namespace Flight_Ticket_Management.Forms
             control.BringToFront();
         }
 
-        private void setControlsEnabled(bool isEnabled)
-        {
-            foreach (Control control in this.Controls)
-            {
-                /*if (control != btnPengaturan && control != btnSimpan)
-                {
-                    control.Enabled = isEnabled;
-                }*/
-            }
-        }
-
         private void lblClose_Click(object sender, EventArgs e)
         {
             this.Hide();

@@ -30,3 +30,6 @@ D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Man
 D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.Controls.VerifikasiPembayaranTiketControl.resources
 D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.Controls.TiketControl.resources
 D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_Ticket_Management.Forms.NotifikasiTiketControl.resources
+D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\bin\Debug\System.Data.SQLite.dll
+D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\bin\Debug\System.Data.SQLite.xml
+D:\College (SMT 3)\Pemrograman Lanjut\Flight_Ticket_Management\Flight_Ticket_Management\obj\Debug\Flight_T.42EC9D05.Up2Date

@@ -23,6 +23,8 @@ namespace Flight_Ticket_Management.Controls
         private void btnSudahTransfer_Click(object sender, EventArgs e)
         {
             dashboard.showUserControls(dashboard.userControl[4]);
+            dashboard.btnPembayaran.Enabled = false;
+            dashboard.btnTiket.Enabled = true;
         }
     }
 }
